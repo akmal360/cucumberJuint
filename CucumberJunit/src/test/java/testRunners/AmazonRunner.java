@@ -2,14 +2,13 @@ package testRunners;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 
 
 
 @RunWith(Cucumber.class)
+@CucumberOptions
 public class AmazonRunner {
 	
-	int i=04;
-	int l=04;
-	int k=033;
 }
 
