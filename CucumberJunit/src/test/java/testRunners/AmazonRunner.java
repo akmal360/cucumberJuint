@@ -7,7 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions
+@CucumberOptions(
+		features = {"/src/test/java/appsFeature"},
+		glue = {"stepDefination"},
+		plugin = {"pretty"}
+		
+		)
 public class AmazonRunner {
 	
 }
