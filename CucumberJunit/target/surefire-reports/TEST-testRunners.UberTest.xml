@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.AmazonTest" time="0.465" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.UberTest" time="0.008" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -54,17 +54,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="check previous order details" classname="Amazon Order Page" time="0.084"/>
-  <testcase name="check open order details" classname="Amazon Order Page" time="0.014"/>
-  <testcase name="check cancelled order details" classname="Amazon Order Page" time="0.01"/>
-  <testcase name="Amazon search products" classname="Amazon searching" time="0.013">
-    <system-out><![CDATA[Step 1
-Step 2: ProductName: Apple phonePrice1200
-Step 3: ProductName:Apple phone
-Searched product namenull
-]]></system-out>
-  </testcase>
-  <testcase name="Booking Cab sadan" classname="Uber Booking Feature" time="0.008">
+  <testcase name="Booking Cab sadan" classname="Uber Booking Feature" time="0">
     <system-out><![CDATA[Step 1sedan
 Step 2:: saden banglore pune
 Step 3 
@@ -72,16 +62,8 @@ Step 4
 Step 5::1000
 ]]></system-out>
   </testcase>
-  <testcase name="Booking Cab suv" classname="Uber Booking Feature" time="0.011">
+  <testcase name="Booking Cab suv" classname="Uber Booking Feature" time="0.002">
     <system-out><![CDATA[Step 1suv
-Step 2:: saden banglore pune
-Step 3 
-Step 4
-Step 5::1000
-]]></system-out>
-  </testcase>
-  <testcase name="Booking Cab mini" classname="Uber Booking Feature" time="0.01">
-    <system-out><![CDATA[Step 1mini
 Step 2:: saden banglore pune
 Step 3 
 Step 4
