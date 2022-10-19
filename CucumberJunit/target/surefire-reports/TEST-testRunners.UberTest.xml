@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.UberTest" time="0.008" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.UberTest" time="0.045" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -7,12 +7,13 @@
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221018135834700_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-18T13-58-34_383-jvmRun1 surefire-20221018135834700_1tmp surefire_0-20221018135834700_2tmp"/>
+    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221019005054200_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-19T00-50-53_935-jvmRun1 surefire-20221019005054200_1tmp surefire_0-20221019005054200_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221018135834700_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221019005054200_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -54,20 +55,28 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="Booking Cab sadan" classname="Uber Booking Feature" time="0">
+  <testcase name="Booking Cab sadan" classname="Uber Booking Feature" time="0.017">
     <system-out><![CDATA[Step 1sedan
 Step 2:: saden banglore pune
-Step 3 
-Step 4
-Step 5::1000
+Step 3: Is following 
+Step 4: Is following
+Step 5: The price is :1000
 ]]></system-out>
   </testcase>
-  <testcase name="Booking Cab suv" classname="Uber Booking Feature" time="0.002">
+  <testcase name="Booking Cab suv" classname="Uber Booking Feature" time="0.008">
     <system-out><![CDATA[Step 1suv
 Step 2:: saden banglore pune
-Step 3 
-Step 4
-Step 5::1000
+Step 3: Is following 
+Step 4: Is following
+Step 5: The price is :1000
+]]></system-out>
+  </testcase>
+  <testcase name="Booking Cab mini" classname="Uber Booking Feature" time="0.008">
+    <system-out><![CDATA[Step 1mini
+Step 2:: saden banglore pune
+Step 3: Is following 
+Step 4: Is following
+Step 5: The price is :1000
 ]]></system-out>
   </testcase>
 </testsuite>

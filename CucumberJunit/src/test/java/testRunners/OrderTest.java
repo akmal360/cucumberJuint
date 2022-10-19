@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"src/test/resources/appsFeature/Order.feature"},
-		glue = {"stepDefination"},
+		glue = {"stepDefinations"},
 		plugin = {"pretty"}	
 	)
 public class OrderTest {

@@ -1,3 +1,9 @@
-stepDefination/SearchSteps.class
-stepDefination/UberBookingSteps.class
+testRunners/RegistrationTest.class
+stepDefinations/OrderSteps.class
+hooksFile/AmazonHooks.class
+stepDefinations/UberBookingSteps.class
 testRunners/AmazonTest.class
+testRunners/UberTest.class
+testRunners/OrderTest.class
+stepDefinations/SearchSteps.class
+stepDefinations/UserRegistrationSteps.class

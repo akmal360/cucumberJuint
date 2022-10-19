@@ -1,4 +1,4 @@
-package stepDefination;
+package stepDefinations;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,17 +18,17 @@ public class UberBookingSteps {
 
 	@Then("Driver starts the journey")
 	public void driver_starts_the_journey() {
-		System.out.println("Step 3 ");
+		System.out.println("Step 3: Is following ");
 	}
 
 	@Then("Driver ends the journey")
 	public void driver_ends_the_journey() {
-		System.out.println("Step 4");
+		System.out.println("Step 4: Is following");
 	}
 
 	@Then("User pays {int} USD")
 	public void user_pays_usd(Integer price) {
-		System.out.println("Step 5::" + price);
+		System.out.println("Step 5:" +" The price is :"+ price);
 
 	}
 }
