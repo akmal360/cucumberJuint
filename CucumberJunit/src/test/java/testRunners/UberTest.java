@@ -9,8 +9,10 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = { "src/test/resources/appsFeature/Uber.feature" }, 
 				glue = { "stepDefinations" },
 		// tags = "@Smoke or @Regression",
-				plugin = { "pretty", "json:target/myReports/report.json",
-				"junit:target/myReports/report.xml" },
+				plugin = { "pretty", 
+						"json:target/myReports/report.json",
+						"junit:target/myReports/report.xml" },
+				
 				monochrome = false, 
 				dryRun = false
 // plugin = { "pretty"}

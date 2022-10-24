@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.OrderTest" time="0.028" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.OrderTest" time="0.03" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="16"/>
+    <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -9,11 +9,11 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="16"/>
+    <property name="java.vm.specification.version" value="19"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221019005054200_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-19T00-50-53_935-jvmRun1 surefire-20221019005054200_1tmp surefire_0-20221019005054200_2tmp"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221024193619072_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-24T19-36-18_807-jvmRun1 surefire-20221024193619072_1tmp surefire_0-20221024193619072_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -21,41 +21,75 @@
     <property name="user.home" value="/Users/akmal360"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-04-20"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="style.color" value="always"/>
     <property name="basedir" value="/Users/akmal360/git/CucumberJunit"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221019005054200_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221024193619072_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="user.name" value="akmal360"/>
+    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.5"/>
+    <property name="os.version" value="12.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/akmal360/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/71/650z4rvn18183l86dhj11q7w0000gn/T/"/>
-    <property name="java.version" value="16.0.1"/>
+    <property name="java.version" value="19.0.1"/>
     <property name="user.dir" value="/Users/akmal360/git/CucumberJunit"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/akmal360/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="60.0"/>
+    <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="check previous order details" classname="Amazon Order Page" time="0.009"/>
-  <testcase name="check open order details" classname="Amazon Order Page" time="0.007"/>
-  <testcase name="check cancelled order details" classname="Amazon Order Page" time="0.006"/>
+  <testcase name="check previous order details" classname="Amazon Order Page" time="0.011">
+    <system-out><![CDATA[
+Scenario: check previous order details                       &amp#27;[90m# src/test/resources/appsFeature/Order.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exisrts and user is on Amazon page&amp#27;[0m &amp#27;[90m# stepDefinations.OrderSteps.a_registered_user_exisrts_and_user_is_on_amazon_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username&amp#27;[0m                                  &amp#27;[90m# stepDefinations.OrderSteps.user_enters_username()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password&amp#27;[0m                                   &amp#27;[90m# stepDefinations.OrderSteps.user_enters_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clickes on login button&amp#27;[0m                           &amp#27;[90m# stepDefinations.OrderSteps.user_clickes_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to order page&amp#27;[0m                          &amp#27;[90m# stepDefinations.OrderSteps.user_navigates_to_order_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on order link&amp#27;[0m                             &amp#27;[90m# stepDefinations.OrderSteps.user_clicks_on_order_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks the previous order details&amp#27;[0m                &amp#27;[90m# stepDefinations.OrderSteps.user_checks_the_prev]]></system-out>
+  </testcase>
+  <testcase name="check open order details" classname="Amazon Order Page" time="0.008">
+    <system-out><![CDATA[ious_order_details()&amp#27;[0m
+
+Scenario: check open order details                           &amp#27;[90m# src/test/resources/appsFeature/Order.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exisrts and user is on Amazon page&amp#27;[0m &amp#27;[90m# stepDefinations.OrderSteps.a_registered_user_exisrts_and_user_is_on_amazon_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username&amp#27;[0m                                  &amp#27;[90m# stepDefinations.OrderSteps.user_enters_username()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password&amp#27;[0m                                   &amp#27;[90m# stepDefinations.OrderSteps.user_enters_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clickes on login button&amp#27;[0m                           &amp#27;[90m# stepDefinations.OrderSteps.user_clickes_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to order page&amp#27;[0m                          &amp#27;[90m# stepDefinations.OrderSteps.user_navigates_to_order_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on open orders link&amp#27;[0m                       &amp#27;[90m# stepDefinations.OrderSteps.user_clicks_on_open]]></system-out>
+  </testcase>
+  <testcase name="check cancelled order details" classname="Amazon Order Page" time="0.006">
+    <system-out><![CDATA[_orders_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks open roder details&amp#27;[0m                        &amp#27;[90m# stepDefinations.OrderSteps.user_checks_open_roder_details()&amp#27;[0m
+
+Scenario: check cancelled order details                      &amp#27;[90m# src/test/resources/appsFeature/Order.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma registered user exisrts and user is on Amazon page&amp#27;[0m &amp#27;[90m# stepDefinations.OrderSteps.a_registered_user_exisrts_and_user_is_on_amazon_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters username&amp#27;[0m                                  &amp#27;[90m# stepDefinations.OrderSteps.user_enters_username()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password&amp#27;[0m                                   &amp#27;[90m# stepDefinations.OrderSteps.user_enters_password()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clickes on login button&amp#27;[0m                           &amp#27;[90m# stepDefinations.OrderSteps.user_clickes_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser navigates to order page&amp#27;[0m                          &amp#27;[90m# stepDefinations.OrderSteps.user_navigates_to_order]]></system-out>
+  </testcase>
 </testsuite>

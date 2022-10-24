@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = { "pretty", 
 							"json:target/myReports/report.json", 
 							"junit:target/myReports/report.xml" },
-		monochrome = true,
+		publish = true,
+		monochrome = false,
 		dryRun=false
 				
 		)
