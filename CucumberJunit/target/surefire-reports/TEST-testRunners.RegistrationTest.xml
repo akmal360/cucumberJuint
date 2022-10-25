@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.RegistrationTest" time="2.232" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunners.RegistrationTest" time="2.837" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.8.1/cucumber-junit-7.8.1.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221024193619072_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-24T19-36-18_807-jvmRun1 surefire-20221024193619072_1tmp surefire_0-20221024193619072_2tmp"/>
+    <property name="sun.java.command" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221025022955889_3.jar /Users/akmal360/git/CucumberJunit/target/surefire 2022-10-25T02-29-55_597-jvmRun1 surefire-20221025022955889_1tmp surefire_0-20221025022955889_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.3.4/cucumber-java-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.3.4/cucumber-core-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.3.4/cucumber-gherkin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.3.4/cucumber-gherkin-messages-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/15.1.1/cucumber-expressions-15.1.1.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.3.4/datatable-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.3.4/cucumber-plugin-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.3.4/docstring-7.3.4.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/19.1.0/html-formatter-19.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.3.4/cucumber-junit-7.3.4.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/akmal360/git/CucumberJunit/target/test-classes:/Users/akmal360/git/CucumberJunit/target/classes:/Users/akmal360/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/akmal360/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/akmal360/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/akmal360/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/akmal360/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/akmal360/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akmal360/.m2/repository/io/cucumber/cucumber-junit/7.8.1/cucumber-junit-7.8.1.jar:/Users/akmal360/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akmal360/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/akmal360"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221024193619072_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/akmal360/git/CucumberJunit/target/surefire/surefirebooter-20221025022955889_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -58,14 +58,55 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="user registration with different data" classname="User Registration" time="0.113">
-    <system-out><![CDATA[User navigate on registration page
-[Akmal, Gossain, akmalcode@hotmail.com, 762-217-9223]
+  <testcase name="user registration with different data" classname="User Registration" time="0.137">
+    <system-out><![CDATA[
+Scenario: user registration with different data     &amp#27;[90m# src/test/resources/appsFeature/Registration.feature:3&amp#27;[0m
+User navigate on registration page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on registration page&amp#27;[0m                &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_is_on_registration_page()&amp#27;[0m
+[Akmal, Hossain, akmalcode@hotmail.com, 762-217-9223]
 [Bazee, Oossain, akmalcode@hotmail.com, 762-217-9223]
 [Camze, Lossain, akmalcode@hotmail.com, 762-217-9223]
-
-Scenario: user registration with different data     &amp#27;[90m# src/test/resources/appsFeature/Registration.feature:3&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on registration page&amp#27;[0m                &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_is_on_registration_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mueser enters following user details&amp#27;[0m          &amp#27;[90m# stepDefinations.UserRegistrationSteps.ueser_enters_following_user_details(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Akmal | Hossain | akmalcode@hotmail.com | 762-217-9223 |
+    | Bazee | Oossain | akmalcode@hotmail.com | 762-217-9223 |
+    | Camze | Lossain | akmalcode@hotmail.com | 762-217-9223 |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser registration should be successful login&amp#27;[0m &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_registration_should_be_successful_login()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user registration with different data with row and column" classname="User Registration" time="0.024">
+    <system-out><![CDATA[
+Scenario: user registration with different data with row and column &amp#27;[90m# src/test/resources/appsFeature/Registration.feature:11&amp#27;[0m
+User navigate on registration page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on registration page&amp#27;[0m                                &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_is_on_registration_page()&amp#27;[0m
+[{firstName=Akmal, lastName=Gossain, eMail=max@hotmail.com, phoneNumber=762-217-9223, cityName=georgia}, {firstName=Naveen, lastName=Oossain, eMail=naveen@hotmail.com, phoneNumber=762-217-9223, cityName=lawrenceville}, {firstName=Pretom, lastName=Lossain, eMail=pretom@hotmail.com, phoneNumber=762-217-9223, cityName=cumming}, {firstName=Areyan, lastName=Hossain, eMail=areyan@gmail.com, phoneNumber=999-888-7777, cityName=lawrenceville}]
+Akmal
+Akmal
+Gossain
+max@hotmail.com
+762-217-9223
+georgia
+Naveen
+Oossain
+naveen@hotmail.com
+762-217-9223
+lawrenceville
+Pretom
+Lossain
+pretom@hotmail.com
+762-217-9223
+cumming
+Areyan
+Hossain
+areyan@gmail.com
+999-888-7777
+lawrenceville
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters following user details with row and column&amp#27;[0m       &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_enters_following_user_details_with_row_and_column(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | firstName | lastName | eMail              | phoneNumber  | cityName      |
+    | Akmal     | Gossain  | max@hotmail.com    | 762-217-9223 | georgia       |
+    | Naveen    | Oossain  | naveen@hotmail.com | 762-217-9223 | lawrenceville |
+    | Pretom    | Lossain  | pretom@hotmail.com | 762-217-9223 | cumming       |
+    | Areyan    | Hossain  | areyan@gmail.com   | 999-888-7777 | lawrenceville |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser registration should be successful login&amp#27;[0m                 &amp#27;[90m# stepDefinations.UserRegistrationSteps.user_registration_should_be_successful_login()&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

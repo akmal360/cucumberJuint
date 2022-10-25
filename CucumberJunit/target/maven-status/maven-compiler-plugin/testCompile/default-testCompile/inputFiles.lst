@@ -1,8 +1,10 @@
+/Users/akmal360/git/CucumberJunit/src/test/java/testRunners/LoginTest.java
 /Users/akmal360/git/CucumberJunit/src/test/java/stepDefinations/OrderSteps.java
 /Users/akmal360/git/CucumberJunit/src/test/java/testRunners/AmazonTest.java
 /Users/akmal360/git/CucumberJunit/src/test/java/hooksFile/AmazonHooks.java
 /Users/akmal360/git/CucumberJunit/src/test/java/testRunners/RegistrationTest.java
 /Users/akmal360/git/CucumberJunit/src/test/java/stepDefinations/UberBookingSteps.java
+/Users/akmal360/git/CucumberJunit/src/test/java/stepDefinations/LoginSteps.java
 /Users/akmal360/git/CucumberJunit/src/test/java/testRunners/UberTest.java
 /Users/akmal360/git/CucumberJunit/src/test/java/testRunners/OrderTest.java
 /Users/akmal360/git/CucumberJunit/src/test/java/stepDefinations/SearchSteps.java
